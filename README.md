@@ -9,3 +9,21 @@ narchgen new RentACarProject
 narchgen generate crud
 ```
 
+### Migrations
+Use this commands for the `Migration Operations`:
+- Create Migration
+```
+    PM> Add-Migration [MigrationName]
+```
+- Update Data   (Add Configurations)
+```
+    PM> Update-Database
+```
+- Remove Last Migration
+```
+    PM> Remove-Migration
+```
+- Drop the Database
+```
+    PM> Drop-Database 
+```
